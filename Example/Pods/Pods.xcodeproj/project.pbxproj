@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032D70E6067D701F7DD0C2AE70EEAA3E /* VrRealTimePerRoomInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EE77469A0B07AAEFA4F3177BB25B539E /* VrRealTimePerRoomInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0383A70E7E9E9C6102BB7AD835B1B49D /* VrPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 51BDFD513C9FDB3B4187708203055483 /* VrPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A13BB354EC99FBC61019C504EF9C73 /* VrRealTimeRoomInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F70E5B7834E624578555D6273E4470 /* VrRealTimeRoomInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		092E19083D7F5B7573FC5E199D823236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95480DF5F40CC7F20D144B4107B054A1 /* Foundation.framework */; };
+		1728805F13FCE7D3A60813AA639DFF50 /* VrCaptureKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CC90675007AB0A6E3E5E9D64E3396203 /* VrCaptureKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB6A6CCA6DBA9F8D29E213C1A6DBA35 /* capturekit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAC14C0E567DF49D4266C22A10AA448 /* capturekit-dummy.m */; };
+		446ABA447A7DF83A38E541CCFCC2CF83 /* Pods-capturekit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF76E68510486DE65B9CCE1EA8E05F3 /* Pods-capturekit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7228FEC614C783716CEEB1D10C03782F /* VrCaptureInitModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DD101437C8FBC712354BF2B0E0E3C3 /* VrCaptureInitModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78D719CE62010B55412729BA4A010DCD /* WVrCommonDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE72781021345EDE16C082E90F0E7BA /* WVrCommonDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E9262CDFB57AC4C8E6F3D1EF07885B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95480DF5F40CC7F20D144B4107B054A1 /* Foundation.framework */; };
+		8713DD87157FF6D4EEBF4084C591B07B /* Pods-capturekit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9D7130F6255BA6D1775882CDC208F5 /* Pods-capturekit_Tests-dummy.m */; };
+		92E05236004DD579BA902627A3441E78 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = C94E7FB2D63A4ED1EC83D4A008467C3C /* module.modulemap */; };
+		B001F91840FB7160F811453BB442071E /* VrAdapter in Sources */ = {isa = PBXBuildFile; fileRef = 05A65AC7149015E1E1B934A82CA81E5C /* VrAdapter */; };
+		B71F968D3C23009D15363E84E35ED936 /* capturekit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0836E39BCE7E988EF258590F33613A75 /* capturekit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B79FA9A10115E0A9276DE4268F091D5D /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 09A7DD1FF437F41E0FBF39BC1A53E95C /* Info.plist */; };
+		BE9821706488B924FEAB2BFB54327330 /* WVrCaptureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5290D4B800A4C5EBE975689EF73AD91B /* WVrCaptureView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17AA660E15BE35CAF86AC78DB657D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95480DF5F40CC7F20D144B4107B054A1 /* Foundation.framework */; };
+		C42A46E5FC2552B23612E984782F4FD6 /* VrCaptureKit in Sources */ = {isa = PBXBuildFile; fileRef = 9927C0BFF5B40A9EFF9B1F8D58A0CB36 /* VrCaptureKit */; };
+		D7EB1605CDFA121546814766E4E72A5F /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FC2F34EED0E5B33EA81E1278514381 /* ARKit.framework */; };
+		E4BB01349F338CE601F6544901058781 /* Pods-capturekit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77966799CD677B91AA3C3CDF8632CC /* Pods-capturekit_Example-dummy.m */; };
+		EAE1F95F6A1C129E604CBB0EB045096A /* Pods-capturekit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7594861BE647217C33388F15B5E9B48 /* Pods-capturekit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9AEA85983E6046AB9335D333F23D69C /* WVrCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C47B513F52C44CCDC80CE5D8A03D9 /* WVrCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C37F162E42AA2CA1D9ABD7AE9A87A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73EB7708265A763D108DABB5C07D027;
+			remoteInfo = capturekit;
+		};
+		82B2E4E40856A9752EF661BD561AF862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A53434455A6E7F601DDBA5617DF9772;
+			remoteInfo = "Pods-capturekit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A65AC7149015E1E1B934A82CA81E5C /* VrAdapter */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = VrAdapter; sourceTree = "<group>"; };
+		06633103BF637B3C0E3F8EF9404D45A7 /* Pods-capturekit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-capturekit_Example.modulemap"; sourceTree = "<group>"; };
+		0836E39BCE7E988EF258590F33613A75 /* capturekit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "capturekit-umbrella.h"; sourceTree = "<group>"; };
+		09A7DD1FF437F41E0FBF39BC1A53E95C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = capturekit/Classes/VrCaptureKit.framework/Info.plist; sourceTree = "<group>"; };
+		0CD739614C23A250951078DED59542F5 /* Pods-capturekit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-capturekit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		17FC2F34EED0E5B33EA81E1278514381 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ARKit.framework; sourceTree = DEVELOPER_DIR; };
+		2194E8AC280078DBE5BFD8C0915D8D43 /* Pods_capturekit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_capturekit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F48476AC2C8DCFD0A02C0C7B888718 /* Pods-capturekit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-capturekit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2344224A26FCA360D14995991A129F90 /* capturekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = capturekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1CF0DA383CD50C5D106D9547E74DDF /* capturekit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "capturekit-Info.plist"; sourceTree = "<group>"; };
+		3D70CCBD2BCC8D215BAFFD2A86B06EDF /* Pods-capturekit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-capturekit_Tests-Info.plist"; sourceTree = "<group>"; };
+		51BDFD513C9FDB3B4187708203055483 /* VrPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VrPoint.h; sourceTree = "<group>"; };
+		5290D4B800A4C5EBE975689EF73AD91B /* WVrCaptureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WVrCaptureView.h; sourceTree = "<group>"; };
+		548105B1A1060D60724419C3FFCCFE8C /* capturekit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "capturekit-prefix.pch"; sourceTree = "<group>"; };
+		6D8D091015819FD5BE737896B992EE21 /* Pods-capturekit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-capturekit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		75F39AEDF1FFA150BEB67EDF9E721A79 /* capturekit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = capturekit.debug.xcconfig; sourceTree = "<group>"; };
+		7ECA60F4E3404F7697CE523B11AED04E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		802DAE3A9B9FD81D039CE85A31A11C7B /* capturekit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = capturekit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		814C47B513F52C44CCDC80CE5D8A03D9 /* WVrCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WVrCapture.h; sourceTree = "<group>"; };
+		89C9A582418DA8715B59F9C21757F8D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		95480DF5F40CC7F20D144B4107B054A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		97DAEF7D521839A56B6392F789A67C67 /* Pods-capturekit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-capturekit_Example-Info.plist"; sourceTree = "<group>"; };
+		9927C0BFF5B40A9EFF9B1F8D58A0CB36 /* VrCaptureKit */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = VrCaptureKit; path = capturekit/Classes/VrCaptureKit.framework/VrCaptureKit; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1B4143F5949FABC504F1868B6A5F6A7 /* capturekit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = capturekit.modulemap; sourceTree = "<group>"; };
+		A79900AE0D355B45AC49E0CDF7E64B1B /* Pods-capturekit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-capturekit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B28DC468CBB7DBF3D5E91A7BDAC47DA8 /* Pods-capturekit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-capturekit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA77966799CD677B91AA3C3CDF8632CC /* Pods-capturekit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-capturekit_Example-dummy.m"; sourceTree = "<group>"; };
+		BA932227ECF17DF7E0A59E1EDEF0AE50 /* Pods-capturekit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-capturekit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBCAD5B91CF6FE68E87E755E46636C7C /* Pods_capturekit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_capturekit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE72781021345EDE16C082E90F0E7BA /* WVrCommonDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WVrCommonDesc.h; sourceTree = "<group>"; };
+		C4B4ED400293FF3EFE142E31275F61CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E4085C2199037E472F95B007885522 /* Pods-capturekit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-capturekit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7594861BE647217C33388F15B5E9B48 /* Pods-capturekit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-capturekit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C94E7FB2D63A4ED1EC83D4A008467C3C /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		CC90675007AB0A6E3E5E9D64E3396203 /* VrCaptureKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VrCaptureKit.h; sourceTree = "<group>"; };
+		D6DD101437C8FBC712354BF2B0E0E3C3 /* VrCaptureInitModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VrCaptureInitModel.h; sourceTree = "<group>"; };
+		D75BBF394C76CCD825D96E4E4CC26C34 /* Pods-capturekit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-capturekit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DCF76E68510486DE65B9CCE1EA8E05F3 /* Pods-capturekit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-capturekit_Example-umbrella.h"; sourceTree = "<group>"; };
+		DD9D7130F6255BA6D1775882CDC208F5 /* Pods-capturekit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-capturekit_Tests-dummy.m"; sourceTree = "<group>"; };
+		E87E40F5754A348319C82EBE17DD29CF /* Pods-capturekit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-capturekit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E9E979A87B6FAED96352D03C70B6323E /* capturekit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = capturekit.release.xcconfig; sourceTree = "<group>"; };
+		EE77469A0B07AAEFA4F3177BB25B539E /* VrRealTimePerRoomInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VrRealTimePerRoomInfoModel.h; sourceTree = "<group>"; };
+		F6F70E5B7834E624578555D6273E4470 /* VrRealTimeRoomInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VrRealTimeRoomInfoModel.h; sourceTree = "<group>"; };
+		FCAC14C0E567DF49D4266C22A10AA448 /* capturekit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "capturekit-dummy.m"; sourceTree = "<group>"; };
+		FF1CAA5F0793BF9B739C24C390AD84A1 /* Pods-capturekit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-capturekit_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13D23373F63A97C8E286BBF04270E34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EB1605CDFA121546814766E4E72A5F /* ARKit.framework in Frameworks */,
+				7E9262CDFB57AC4C8E6F3D1EF07885B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4F311DF6A2AB006721576B3A5E1C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092E19083D7F5B7573FC5E199D823236 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D028284DA9D2631034B773595505C0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17AA660E15BE35CAF86AC78DB657D47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123993652E87D83D21347BAF036AE86C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EE9CBCD2EEC2007391E0F35AC69D826 /* capturekit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F36D455C00CDB9BEBA994C0692E387BF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AD8F281539CB5A6690E4A7BF30965A1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D6DD101437C8FBC712354BF2B0E0E3C3 /* VrCaptureInitModel.h */,
+				CC90675007AB0A6E3E5E9D64E3396203 /* VrCaptureKit.h */,
+				51BDFD513C9FDB3B4187708203055483 /* VrPoint.h */,
+				EE77469A0B07AAEFA4F3177BB25B539E /* VrRealTimePerRoomInfoModel.h */,
+				F6F70E5B7834E624578555D6273E4470 /* VrRealTimeRoomInfoModel.h */,
+				814C47B513F52C44CCDC80CE5D8A03D9 /* WVrCapture.h */,
+				5290D4B800A4C5EBE975689EF73AD91B /* WVrCaptureView.h */,
+				BBE72781021345EDE16C082E90F0E7BA /* WVrCommonDesc.h */,
+			);
+			name = Headers;
+			path = capturekit/Classes/VrCaptureKit.framework/Headers;
+			sourceTree = "<group>";
+		};
+		690C7EB4499FBBB7FFE496F2D8AEFDC9 /* Pods-capturekit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				06633103BF637B3C0E3F8EF9404D45A7 /* Pods-capturekit_Example.modulemap */,
+				BA932227ECF17DF7E0A59E1EDEF0AE50 /* Pods-capturekit_Example-acknowledgements.markdown */,
+				A79900AE0D355B45AC49E0CDF7E64B1B /* Pods-capturekit_Example-acknowledgements.plist */,
+				BA77966799CD677B91AA3C3CDF8632CC /* Pods-capturekit_Example-dummy.m */,
+				21F48476AC2C8DCFD0A02C0C7B888718 /* Pods-capturekit_Example-frameworks.sh */,
+				97DAEF7D521839A56B6392F789A67C67 /* Pods-capturekit_Example-Info.plist */,
+				DCF76E68510486DE65B9CCE1EA8E05F3 /* Pods-capturekit_Example-umbrella.h */,
+				D75BBF394C76CCD825D96E4E4CC26C34 /* Pods-capturekit_Example.debug.xcconfig */,
+				E87E40F5754A348319C82EBE17DD29CF /* Pods-capturekit_Example.release.xcconfig */,
+			);
+			name = "Pods-capturekit_Example";
+			path = "Target Support Files/Pods-capturekit_Example";
+			sourceTree = "<group>";
+		};
+		6EE9CBCD2EEC2007391E0F35AC69D826 /* capturekit */ = {
+			isa = PBXGroup;
+			children = (
+				09A7DD1FF437F41E0FBF39BC1A53E95C /* Info.plist */,
+				9927C0BFF5B40A9EFF9B1F8D58A0CB36 /* VrCaptureKit */,
+				847123C626583D9CC8DB9D28451962BB /* Frameworks */,
+				5AD8F281539CB5A6690E4A7BF30965A1 /* Headers */,
+				9731443DBD5FD4A36DB00499A44CBBE9 /* Modules */,
+				DF8EFAA2677FCDA34A94E00C835C633E /* Pod */,
+				A3E6524139FF36F079D78D0C695AC965 /* Support Files */,
+			);
+			name = capturekit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		758CFB6A7C3F74297091798E9AB3B888 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				690C7EB4499FBBB7FFE496F2D8AEFDC9 /* Pods-capturekit_Example */,
+				C1386E98621E45FA2CE2376255894A5C /* Pods-capturekit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C12ACA045FCBE621FEE0C4D770EC89A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2344224A26FCA360D14995991A129F90 /* capturekit.framework */,
+				BBCAD5B91CF6FE68E87E755E46636C7C /* Pods_capturekit_Example.framework */,
+				2194E8AC280078DBE5BFD8C0915D8D43 /* Pods_capturekit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847123C626583D9CC8DB9D28451962BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB77866B0D6C5A6C3514FAD79864FEA0 /* VrAdapter.framework */,
+			);
+			name = Frameworks;
+			path = capturekit/Classes/VrCaptureKit.framework/Frameworks;
+			sourceTree = "<group>";
+		};
+		9731443DBD5FD4A36DB00499A44CBBE9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C94E7FB2D63A4ED1EC83D4A008467C3C /* module.modulemap */,
+			);
+			name = Modules;
+			path = capturekit/Classes/VrCaptureKit.framework/Modules;
+			sourceTree = "<group>";
+		};
+		A3E6524139FF36F079D78D0C695AC965 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4143F5949FABC504F1868B6A5F6A7 /* capturekit.modulemap */,
+				FCAC14C0E567DF49D4266C22A10AA448 /* capturekit-dummy.m */,
+				3C1CF0DA383CD50C5D106D9547E74DDF /* capturekit-Info.plist */,
+				548105B1A1060D60724419C3FFCCFE8C /* capturekit-prefix.pch */,
+				0836E39BCE7E988EF258590F33613A75 /* capturekit-umbrella.h */,
+				75F39AEDF1FFA150BEB67EDF9E721A79 /* capturekit.debug.xcconfig */,
+				E9E979A87B6FAED96352D03C70B6323E /* capturekit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/capturekit";
+			sourceTree = "<group>";
+		};
+		C1386E98621E45FA2CE2376255894A5C /* Pods-capturekit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CAA5F0793BF9B739C24C390AD84A1 /* Pods-capturekit_Tests.modulemap */,
+				B28DC468CBB7DBF3D5E91A7BDAC47DA8 /* Pods-capturekit_Tests-acknowledgements.markdown */,
+				C4E4085C2199037E472F95B007885522 /* Pods-capturekit_Tests-acknowledgements.plist */,
+				DD9D7130F6255BA6D1775882CDC208F5 /* Pods-capturekit_Tests-dummy.m */,
+				3D70CCBD2BCC8D215BAFFD2A86B06EDF /* Pods-capturekit_Tests-Info.plist */,
+				C7594861BE647217C33388F15B5E9B48 /* Pods-capturekit_Tests-umbrella.h */,
+				6D8D091015819FD5BE737896B992EE21 /* Pods-capturekit_Tests.debug.xcconfig */,
+				0CD739614C23A250951078DED59542F5 /* Pods-capturekit_Tests.release.xcconfig */,
+			);
+			name = "Pods-capturekit_Tests";
+			path = "Target Support Files/Pods-capturekit_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				123993652E87D83D21347BAF036AE86C /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7C12ACA045FCBE621FEE0C4D770EC89A /* Products */,
+				758CFB6A7C3F74297091798E9AB3B888 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DB77866B0D6C5A6C3514FAD79864FEA0 /* VrAdapter.framework */ = {
+			isa = PBXGroup;
+			children = (
+				C4B4ED400293FF3EFE142E31275F61CE /* Info.plist */,
+				05A65AC7149015E1E1B934A82CA81E5C /* VrAdapter */,
+			);
+			path = VrAdapter.framework;
+			sourceTree = "<group>";
+		};
+		DF8EFAA2677FCDA34A94E00C835C633E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				802DAE3A9B9FD81D039CE85A31A11C7B /* capturekit.podspec */,
+				7ECA60F4E3404F7697CE523B11AED04E /* LICENSE */,
+				89C9A582418DA8715B59F9C21757F8D6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F36D455C00CDB9BEBA994C0692E387BF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				17FC2F34EED0E5B33EA81E1278514381 /* ARKit.framework */,
+				95480DF5F40CC7F20D144B4107B054A1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0176DB1582B0D9B1F1FB9E435F28D610 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE1F95F6A1C129E604CBB0EB045096A /* Pods-capturekit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36F2C3A8892365762EE65D7A6928127 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71F968D3C23009D15363E84E35ED936 /* capturekit-umbrella.h in Headers */,
+				7228FEC614C783716CEEB1D10C03782F /* VrCaptureInitModel.h in Headers */,
+				1728805F13FCE7D3A60813AA639DFF50 /* VrCaptureKit.h in Headers */,
+				0383A70E7E9E9C6102BB7AD835B1B49D /* VrPoint.h in Headers */,
+				032D70E6067D701F7DD0C2AE70EEAA3E /* VrRealTimePerRoomInfoModel.h in Headers */,
+				04A13BB354EC99FBC61019C504EF9C73 /* VrRealTimeRoomInfoModel.h in Headers */,
+				F9AEA85983E6046AB9335D333F23D69C /* WVrCapture.h in Headers */,
+				BE9821706488B924FEAB2BFB54327330 /* WVrCaptureView.h in Headers */,
+				78D719CE62010B55412729BA4A010DCD /* WVrCommonDesc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7259A94161A0235145B36A661A50289 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446ABA447A7DF83A38E541CCFCC2CF83 /* Pods-capturekit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A53434455A6E7F601DDBA5617DF9772 /* Pods-capturekit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3523F6F6BE330C08600FAE3151B6057 /* Build configuration list for PBXNativeTarget "Pods-capturekit_Example" */;
+			buildPhases = (
+				E7259A94161A0235145B36A661A50289 /* Headers */,
+				44406C57DBE5BF59157BF9B709DA625C /* Sources */,
+				D028284DA9D2631034B773595505C0A3 /* Frameworks */,
+				DF38DE39536251A5641C6F16AD8D4B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF543924CE391BF258C35B62AFB1E687 /* PBXTargetDependency */,
+			);
+			name = "Pods-capturekit_Example";
+			productName = "Pods-capturekit_Example";
+			productReference = BBCAD5B91CF6FE68E87E755E46636C7C /* Pods_capturekit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		929E2BFC81ABC25FCF61B05AF7D3CC43 /* Pods-capturekit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C502637730C9035423B5B35ED5C40A /* Build configuration list for PBXNativeTarget "Pods-capturekit_Tests" */;
+			buildPhases = (
+				0176DB1582B0D9B1F1FB9E435F28D610 /* Headers */,
+				FBA779122382EC23E9B07ED0CA034E1B /* Sources */,
+				5C4F311DF6A2AB006721576B3A5E1C61 /* Frameworks */,
+				7155DBDA01A595684AE461F63B74FA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33C33F6E5F85716528D2F9F36A22C36C /* PBXTargetDependency */,
+			);
+			name = "Pods-capturekit_Tests";
+			productName = "Pods-capturekit_Tests";
+			productReference = 2194E8AC280078DBE5BFD8C0915D8D43 /* Pods_capturekit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E73EB7708265A763D108DABB5C07D027 /* capturekit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63078FD41917CE12DC1C77EED77F971 /* Build configuration list for PBXNativeTarget "capturekit" */;
+			buildPhases = (
+				C36F2C3A8892365762EE65D7A6928127 /* Headers */,
+				744FB9A818E12DCC6891F5AFEFAD8777 /* Sources */,
+				13D23373F63A97C8E286BBF04270E34C /* Frameworks */,
+				999584F6137C7B096F3E89DDE8CD6180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = capturekit;
+			productName = capturekit;
+			productReference = 2344224A26FCA360D14995991A129F90 /* capturekit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7C12ACA045FCBE621FEE0C4D770EC89A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73EB7708265A763D108DABB5C07D027 /* capturekit */,
+				4A53434455A6E7F601DDBA5617DF9772 /* Pods-capturekit_Example */,
+				929E2BFC81ABC25FCF61B05AF7D3CC43 /* Pods-capturekit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7155DBDA01A595684AE461F63B74FA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999584F6137C7B096F3E89DDE8CD6180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38DE39536251A5641C6F16AD8D4B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44406C57DBE5BF59157BF9B709DA625C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BB01349F338CE601F6544901058781 /* Pods-capturekit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744FB9A818E12DCC6891F5AFEFAD8777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB6A6CCA6DBA9F8D29E213C1A6DBA35 /* capturekit-dummy.m in Sources */,
+				B79FA9A10115E0A9276DE4268F091D5D /* Info.plist in Sources */,
+				92E05236004DD579BA902627A3441E78 /* module.modulemap in Sources */,
+				B001F91840FB7160F811453BB442071E /* VrAdapter in Sources */,
+				C42A46E5FC2552B23612E984782F4FD6 /* VrCaptureKit in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA779122382EC23E9B07ED0CA034E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8713DD87157FF6D4EEBF4084C591B07B /* Pods-capturekit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33C33F6E5F85716528D2F9F36A22C36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-capturekit_Example";
+			target = 4A53434455A6E7F601DDBA5617DF9772 /* Pods-capturekit_Example */;
+			targetProxy = 82B2E4E40856A9752EF661BD561AF862 /* PBXContainerItemProxy */;
+		};
+		FF543924CE391BF258C35B62AFB1E687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = capturekit;
+			target = E73EB7708265A763D108DABB5C07D027 /* capturekit */;
+			targetProxy = 5C37F162E42AA2CA1D9ABD7AE9A87A4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C6BAB7B728059A1890B8BC040D633DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8D091015819FD5BE737896B992EE21 /* Pods-capturekit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-capturekit_Tests/Pods-capturekit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-capturekit_Tests/Pods-capturekit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6AB6EC07D9307837F36F5BB9AA2F67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F39AEDF1FFA150BEB67EDF9E721A79 /* capturekit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/capturekit/capturekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/capturekit/capturekit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/capturekit/capturekit.modulemap";
+				PRODUCT_MODULE_NAME = capturekit;
+				PRODUCT_NAME = capturekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D963220317406F7E9F11940C18714A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87E40F5754A348319C82EBE17DD29CF /* Pods-capturekit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-capturekit_Example/Pods-capturekit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-capturekit_Example/Pods-capturekit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3F499543BF4838A4C0BD960CCF2CC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75BBF394C76CCD825D96E4E4CC26C34 /* Pods-capturekit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-capturekit_Example/Pods-capturekit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-capturekit_Example/Pods-capturekit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F85658EA4830BB1C188A796C14582246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD739614C23A250951078DED59542F5 /* Pods-capturekit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-capturekit_Tests/Pods-capturekit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-capturekit_Tests/Pods-capturekit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDD488180BB242E351AB688379B23393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E979A87B6FAED96352D03C70B6323E /* capturekit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/capturekit/capturekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/capturekit/capturekit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/capturekit/capturekit.modulemap";
+				PRODUCT_MODULE_NAME = capturekit;
+				PRODUCT_NAME = capturekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
+				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3523F6F6BE330C08600FAE3151B6057 /* Build configuration list for PBXNativeTarget "Pods-capturekit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F499543BF4838A4C0BD960CCF2CC9F /* Debug */,
+				D963220317406F7E9F11940C18714A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C502637730C9035423B5B35ED5C40A /* Build configuration list for PBXNativeTarget "Pods-capturekit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BAB7B728059A1890B8BC040D633DEB /* Debug */,
+				F85658EA4830BB1C188A796C14582246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63078FD41917CE12DC1C77EED77F971 /* Build configuration list for PBXNativeTarget "capturekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AB6EC07D9307837F36F5BB9AA2F67D /* Debug */,
+				FDD488180BB242E351AB688379B23393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module VrCaptureKit {
+  umbrella header "VrCaptureKit.h"
+
+  export *
+  module * { export * }
+}

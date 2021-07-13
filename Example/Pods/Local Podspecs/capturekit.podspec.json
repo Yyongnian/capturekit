@@ -1,0 +1,25 @@
+{
+  "name": "capturekit",
+  "version": "0.1.0",
+  "summary": "capturekit.",
+  "description": "one",
+  "homepage": "https://github.com/Yyongnian/capturekit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yyongnian": "yangyongnian@58.com"
+  },
+  "source": {
+    "git": "https://github.com/Yyongnian/capturekit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "capturekit/Classes/**/*",
+  "frameworks": "ARKit",
+  "vendored_frameworks": "VrAdapter.framework",
+  "requires_arc": true
+}

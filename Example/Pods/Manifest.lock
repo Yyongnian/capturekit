@@ -1,0 +1,16 @@
+PODS:
+  - capturekit (0.1.0)
+
+DEPENDENCIES:
+  - capturekit (from `../`)
+
+EXTERNAL SOURCES:
+  capturekit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  capturekit: 343fc7b75ccca5bd89e817094e6d44f8e21f5c14
+
+PODFILE CHECKSUM: 8c795a807bde4e21b86c04e46fb4018ba1945282
+
+COCOAPODS: 1.9.3

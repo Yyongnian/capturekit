@@ -1,0 +1,6 @@
+framework module capturekit {
+  umbrella header "capturekit-umbrella.h"
+
+  export *
+  module * { export * }
+}
