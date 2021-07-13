@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'capturekit_Example' do
+  pod 'capturekit', :path => '../'
+
+  target 'capturekit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

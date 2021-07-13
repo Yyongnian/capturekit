@@ -1,0 +1,15 @@
+//
+//  YYNAppDelegate.h
+//  capturekit
+//
+//  Created by Yyongnian on 07/13/2021.
+//  Copyright (c) 2021 Yyongnian. All rights reserved.
+//
+
+@import UIKit;
+
+@interface YYNAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
